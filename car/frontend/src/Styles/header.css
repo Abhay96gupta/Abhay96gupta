@@ -1,0 +1,121 @@
+.top_section_header{
+    background-color: transparent;
+    color:#251010;
+}
+.top{
+    gap: 200px;
+}
+
+
+/*Nav_Section*/
+
+.Nav_Section {
+    background-color:transparent;
+    margin-top: 50px;
+}
+.Nav_Section .fixed{
+    background-color: #2c0a0a;
+    transition: 0.3s ease-in-out;
+}
+
+.Nav_Section .logo{
+font-weight: 900;
+    width: 10vw;
+    margin-right: 200px;
+}
+
+#link {
+    color: rgb(31, 12, 12);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+  }
+
+#link:hover {
+    text-decoration: none;
+    color: darkorange;
+    background-color: salmon;
+    color: white;
+    transition: all 0.3s ease-in-out;
+
+  }
+
+.navRightSide{
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+}
+.navRightSidecol{
+    margin-right: 10px;
+}
+.navRightSide i {
+    margin-right: 10px;
+    font-size: xx-large;
+}
+.navRightSide p {
+    margin-top: 10px;
+}
+
+/*Slider_Section*/
+
+.sliderSection {
+
+    object-fit: fill;
+}
+.sliderSection img{
+    width:100vw;
+    height:100vh;
+
+}
+/*About Section*/
+.aboutsection{
+   background: url("../Assets/sliderbanner/carbanner01.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    height: 600px;
+    color: #fff;
+}
+.aboutprofiles{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+@media (max-width:920px) {
+    .top_section_header{
+        display: none;
+    }
+    .Nav_Section {
+        margin: 50px 0 0px 20px;
+    }
+    .Nav_Section .logo{
+        width: 30vw;
+    }
+    #link{
+        color: black;
+        display: flex;
+        background-color: #fff;
+    }
+    #link:hover {
+        text-decoration: none;
+        color: darkorange;
+        background-color: salmon;
+        color: rgb(0, 0, 0);
+        transition: all 0.3s ease-in-out;
+        width: 100%;
+    
+      }
+    .navRightSide{
+        display: flex;
+    }
+
+    .sliderSection {
+        position: relative;
+    }
+}
